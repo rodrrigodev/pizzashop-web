@@ -6,7 +6,7 @@ interface UpdateProfileProps {
 }
 
 export async function updateProfile({ name, description }: UpdateProfileProps) {
-  throw new Error("Not implemented");
+  // throw new Error("Not implemented");
 
   await api.put("/profile", {
     name,
